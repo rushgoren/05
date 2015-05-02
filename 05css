@@ -547,3 +547,43 @@ table.dataTable,table.dataTable th,table.dataTable td {
 	line-height: 200%;
 	padding: 5px 15px 5px 25px;
 }
+
+\\\\\\\\\\\\\\\\\\\\\\\
+<body class="body-style">
+
+	<div id="welcometext"></div>
+	<h1 style="text-align: center;">CONFIRM</h1>
+	<div class="div-style">
+		Company Name <select id="companys" name="CompanyBox" class="textbox">
+		
+		</select><br /> Employee Name <select id="employees" name="EmployeeBox"
+			class="textbox">
+		</select> <br /> Date <input type="text" style="margin-left: 92px"></input> ~
+		<input type="text"></input> <input id="btnView" type="submit"
+			class="button-right" value="View"></input>
+		<table id="example" class="row-border hover order-column"
+			cellspacing="0">
+			<thead>
+				<tr>
+					<th>No</th>
+					<th>Date</th>
+					<th>Working Class</th>
+					<th>Start Class</th>
+					<th>End Class</th>
+					<th>Start Time</th>
+					<th>End Time</th>
+					<th>Note</th>
+					<th>Confirmed</th>
+				</tr>
+			</thead>
+
+		</table>
+		<br />
+	</div>
+	<input type="submit" value="Back" style="margin-top: 5px;"></input>
+	<input type="submit" class="button-right" value="Next Month"></input>
+	<input type="submit" class="button-right" value="Previous Month"></input>
+	<input type="submit" class="button-right" value="Delete"></input>
+	<input type="submit" class="button-right" value="Confirm"></input>
+	<input type="submit" class="button-right" value="Print"></input>
+</body>
